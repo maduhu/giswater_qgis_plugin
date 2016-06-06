@@ -389,36 +389,6 @@
     </rect>
    </property>
   </widget>
-  <widget class="QFontComboBox" name="config_nodeinsert_arcendpoint">
-   <property name="geometry">
-    <rect>
-     <x>190</x>
-     <y>160</y>
-     <width>141</width>
-     <height>22</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QFontComboBox" name="config_orphannode_delete">
-   <property name="geometry">
-    <rect>
-     <x>190</x>
-     <y>220</y>
-     <width>141</width>
-     <height>22</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QFontComboBox" name="config_nodetype_change_enabled">
-   <property name="geometry">
-    <rect>
-     <x>190</x>
-     <y>280</y>
-     <width>141</width>
-     <height>22</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QDoubleSpinBox" name="config_vnode_update_tolerance">
    <property name="geometry">
     <rect>
@@ -429,30 +399,47 @@
     </rect>
    </property>
   </widget>
-  <widget class="Q3TextEdit" name="config_nodeinsert_catalog_vdefault">
+  <widget class="QComboBox" name="config_nodeinsert_arcendpoint">
    <property name="geometry">
     <rect>
      <x>190</x>
-     <y>190</y>
+     <y>160</y>
      <width>141</width>
      <height>22</height>
     </rect>
    </property>
   </widget>
+  <widget class="QComboBox" name="config_orphannode_delete">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>220</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="config_nodetype_change_enabled">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>280</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="config_nodeinsert_catalog_vdefault">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>190</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>Q3Frame</class>
-   <extends>QFrame</extends>
-   <header>Qt3Support/Q3Frame</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>Q3TextEdit</class>
-   <extends>Q3Frame</extends>
-   <header>q3textedit.h</header>
-  </customwidget>
- </customwidgets>
  <resources/>
  <connections/>
 </ui>
