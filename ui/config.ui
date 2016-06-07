@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>353</width>
+    <width>362</width>
     <height>354</height>
    </rect>
   </property>
@@ -18,15 +18,18 @@
     <rect>
      <x>190</x>
      <y>10</y>
-     <width>141</width>
+     <width>150</width>
      <height>22</height>
     </rect>
+   </property>
+   <property name="decimals">
+    <number>3</number>
    </property>
   </widget>
   <widget class="QPushButton" name="btn_accept">
    <property name="geometry">
     <rect>
-     <x>180</x>
+     <x>190</x>
      <y>320</y>
      <width>75</width>
      <height>23</height>
@@ -39,7 +42,7 @@
   <widget class="QPushButton" name="btn_cancel">
    <property name="geometry">
     <rect>
-     <x>260</x>
+     <x>270</x>
      <y>320</y>
      <width>75</width>
      <height>23</height>
@@ -354,9 +357,12 @@
     <rect>
      <x>190</x>
      <y>40</y>
-     <width>141</width>
+     <width>150</width>
      <height>22</height>
     </rect>
+   </property>
+   <property name="decimals">
+    <number>3</number>
    </property>
   </widget>
   <widget class="QDoubleSpinBox" name="config_node2arc">
@@ -364,9 +370,12 @@
     <rect>
      <x>190</x>
      <y>70</y>
-     <width>141</width>
+     <width>150</width>
      <height>22</height>
     </rect>
+   </property>
+   <property name="decimals">
+    <number>3</number>
    </property>
   </widget>
   <widget class="QDoubleSpinBox" name="config_arc_toporepair">
@@ -374,9 +383,12 @@
     <rect>
      <x>190</x>
      <y>130</y>
-     <width>141</width>
+     <width>150</width>
      <height>22</height>
     </rect>
+   </property>
+   <property name="decimals">
+    <number>3</number>
    </property>
   </widget>
   <widget class="QDoubleSpinBox" name="config_connec_proximity">
@@ -384,9 +396,12 @@
     <rect>
      <x>190</x>
      <y>100</y>
-     <width>141</width>
+     <width>150</width>
      <height>22</height>
     </rect>
+   </property>
+   <property name="decimals">
+    <number>3</number>
    </property>
   </widget>
   <widget class="QDoubleSpinBox" name="config_vnode_update_tolerance">
@@ -394,9 +409,12 @@
     <rect>
      <x>190</x>
      <y>250</y>
-     <width>141</width>
+     <width>150</width>
      <height>22</height>
     </rect>
+   </property>
+   <property name="decimals">
+    <number>3</number>
    </property>
   </widget>
   <widget class="QComboBox" name="config_nodeinsert_arcendpoint">
@@ -404,7 +422,7 @@
     <rect>
      <x>190</x>
      <y>160</y>
-     <width>141</width>
+     <width>150</width>
      <height>22</height>
     </rect>
    </property>
@@ -414,7 +432,7 @@
     <rect>
      <x>190</x>
      <y>220</y>
-     <width>141</width>
+     <width>150</width>
      <height>22</height>
     </rect>
    </property>
@@ -424,18 +442,18 @@
     <rect>
      <x>190</x>
      <y>280</y>
-     <width>141</width>
+     <width>150</width>
      <height>22</height>
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="config_nodeinsert_catalog_vdefault">
+  <widget class="QComboBox" name="config_nodeinsert_catalog_vdefault">
    <property name="geometry">
     <rect>
      <x>190</x>
      <y>190</y>
-     <width>141</width>
-     <height>20</height>
+     <width>150</width>
+     <height>22</height>
     </rect>
    </property>
   </widget>
